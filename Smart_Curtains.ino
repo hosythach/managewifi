@@ -11,6 +11,7 @@ void setup() {
   WiFiManager wifiManager;  
   wifiManager.autoConnect("Smart curtains");  
   Serial.println("Connected.....");  
+   Serial.print(WiFi.localIP());
 
 }
 
